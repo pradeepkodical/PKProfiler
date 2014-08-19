@@ -1,0 +1,522 @@
+<ArrayOfTraceItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <TraceItem>
+    <TraceOrderBy>1</TraceOrderBy>
+    <TraceKey>1</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876189534525</CurrentTick>
+    <EventDate>2014-07-03T12:33:38.9534525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Program::Main(System.String[])</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>2</TraceOrderBy>
+    <TraceKey>2</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876189534525</CurrentTick>
+    <EventDate>2014-07-03T12:33:38.9534525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Services.ServiceClass::.ctor(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>3</TraceOrderBy>
+    <TraceKey>3</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Services.ServiceClass::&lt;.ctor&gt;b__0()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>4</TraceOrderBy>
+    <TraceKey>4</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Person::.ctor()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>5</TraceOrderBy>
+    <TraceKey>5</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Person::set_FirstName(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>6</TraceOrderBy>
+    <TraceKey>5</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Person::set_FirstName(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>7</TraceOrderBy>
+    <TraceKey>6</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Person::set_LastName(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>8</TraceOrderBy>
+    <TraceKey>6</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Person::set_LastName(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>9</TraceOrderBy>
+    <TraceKey>4</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Person::.ctor()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>10</TraceOrderBy>
+    <TraceKey>7</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Person::set_FirstName(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>11</TraceOrderBy>
+    <TraceKey>7</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Person::set_FirstName(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>12</TraceOrderBy>
+    <TraceKey>8</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Person::set_LastName(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>13</TraceOrderBy>
+    <TraceKey>8</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Person::set_LastName(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>14</TraceOrderBy>
+    <TraceKey>9</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.String ConsoleApplication1.Person::get_FirstName()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>15</TraceOrderBy>
+    <TraceKey>9</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.String ConsoleApplication1.Person::get_FirstName()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>16</TraceOrderBy>
+    <TraceKey>10</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.String ConsoleApplication1.Person::get_LastName()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>17</TraceOrderBy>
+    <TraceKey>10</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.String ConsoleApplication1.Person::get_LastName()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>18</TraceOrderBy>
+    <TraceKey>3</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Services.ServiceClass::&lt;.ctor&gt;b__0()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>19</TraceOrderBy>
+    <TraceKey>2</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Services.ServiceClass::.ctor(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>20</TraceOrderBy>
+    <TraceKey>11</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Services.ServiceClass::DoSomeThingBad()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>21</TraceOrderBy>
+    <TraceKey>12</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876190626525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.0626525-05:00</EventDate>
+    <EventDescription>System.Boolean ConsoleApplication1.Services.ServiceClass::UserHasAccessToThisFeature(System.Int32)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>22</TraceOrderBy>
+    <TraceKey>12</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876191718525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.1718525-05:00</EventDate>
+    <EventDescription>System.Boolean ConsoleApplication1.Services.ServiceClass::UserHasAccessToThisFeature(System.Int32)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>23</TraceOrderBy>
+    <TraceKey>13</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876192810525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.2810525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Services.ServiceClass::DoSomeThingCorrect(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>24</TraceOrderBy>
+    <TraceKey>14</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876193902525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.3902525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>25</TraceOrderBy>
+    <TraceKey>14</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876194994525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.4994525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>26</TraceOrderBy>
+    <TraceKey>15</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876194994525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.4994525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>27</TraceOrderBy>
+    <TraceKey>15</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876196086525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.6086525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>28</TraceOrderBy>
+    <TraceKey>16</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876196086525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.6086525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>29</TraceOrderBy>
+    <TraceKey>16</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876197178525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.7178525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>30</TraceOrderBy>
+    <TraceKey>17</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876197178525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.7178525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>31</TraceOrderBy>
+    <TraceKey>17</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876198270525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.8270525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>32</TraceOrderBy>
+    <TraceKey>18</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876198270525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.8270525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>33</TraceOrderBy>
+    <TraceKey>18</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876199362525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.9362525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>34</TraceOrderBy>
+    <TraceKey>13</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876199362525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.9362525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Services.ServiceClass::DoSomeThingCorrect(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>35</TraceOrderBy>
+    <TraceKey>19</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876199362525</CurrentTick>
+    <EventDate>2014-07-03T12:33:39.9362525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Services.ServiceClass::DoSomeThingCorrect(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>36</TraceOrderBy>
+    <TraceKey>20</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876200454525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.0454525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>37</TraceOrderBy>
+    <TraceKey>20</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876201546525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.1546525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>38</TraceOrderBy>
+    <TraceKey>21</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876201546525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.1546525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>39</TraceOrderBy>
+    <TraceKey>21</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876202638525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.2638525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>40</TraceOrderBy>
+    <TraceKey>22</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876202638525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.2638525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>41</TraceOrderBy>
+    <TraceKey>22</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876203730525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.3730525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>42</TraceOrderBy>
+    <TraceKey>23</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876203730525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.3730525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>43</TraceOrderBy>
+    <TraceKey>23</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876204822525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.4822525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>44</TraceOrderBy>
+    <TraceKey>24</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876204822525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.4822525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>45</TraceOrderBy>
+    <TraceKey>24</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876205914525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.5914525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>46</TraceOrderBy>
+    <TraceKey>19</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876205914525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.5914525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Services.ServiceClass::DoSomeThingCorrect(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>47</TraceOrderBy>
+    <TraceKey>25</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876205914525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.5914525-05:00</EventDate>
+    <EventDescription>System.Void ConsoleApplication1.Services.ServiceClass::DoSomeThingCorrect(System.String)</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>48</TraceOrderBy>
+    <TraceKey>26</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876207006525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.7006525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>49</TraceOrderBy>
+    <TraceKey>26</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876208098525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.8098525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>50</TraceOrderBy>
+    <TraceKey>27</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876208098525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.8098525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>51</TraceOrderBy>
+    <TraceKey>27</TraceKey>
+    <EventType>End</EventType>
+    <CurrentTick>635399876209190525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.9190525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+  <TraceItem>
+    <TraceOrderBy>52</TraceOrderBy>
+    <TraceKey>28</TraceKey>
+    <EventType>Begin</EventType>
+    <CurrentTick>635399876209190525</CurrentTick>
+    <EventDate>2014-07-03T12:33:40.9190525-05:00</EventDate>
+    <EventDescription>System.Int32 ConsoleApplication1.Services.ServiceClass::DoSomeThingInt()</EventDescription>
+    <GroupKey>8904-10</GroupKey>
+    <UserKey />
+  </TraceItem>
+</ArrayOfTraceItem>

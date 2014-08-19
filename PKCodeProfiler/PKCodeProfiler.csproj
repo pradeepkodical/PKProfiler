@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7DDEBF04-7D1D-434E-BA99-D28F50BC7266}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PKCodeProfiler</RootNamespace>
+    <AssemblyName>PKCodeProfiler</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ApplicationIcon>appicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aga.Controls, Version=1.7.0.0, Culture=neutral, PublicKeyToken=fcc90fbf924463a3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Aga.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Commands\Concrete\WeaveFileCommand.cs" />
+    <Compile Include="Factory\Concrete\ApplicationFactory.cs" />
+    <Compile Include="Commands\Abstract\ICommand.cs" />
+    <Compile Include="Commands\Concrete\ClearMemoryTracesCommand.cs" />
+    <Compile Include="Commands\Concrete\StopProfilingCommand.cs" />
+    <Compile Include="Commands\Concrete\StartProfilingCommand.cs" />
+    <Compile Include="Commands\Concrete\ViewInstrumentationCommand.cs" />
+    <Compile Include="Commands\Concrete\ViewFileTracesCommand.cs" />
+    <Compile Include="Commands\Concrete\ViewDatabaseTracesCommand.cs" />
+    <Compile Include="Commands\Concrete\ViewMemoryTracesCommand.cs" />
+    <Compile Include="Factory\Abstract\IApplicationFactory.cs" />
+    <Compile Include="Mixins\UIMixins.cs" />
+    <Compile Include="Model\TraceNode.cs" />
+    <Compile Include="Services\Abstract\ICodeWeaverService.cs" />
+    <Compile Include="Services\Concrete\CodeWeaverService.cs" />
+    <Compile Include="ViewModel\ParametersViewModel.cs" />
+    <Compile Include="Model\NodeModel.cs" />
+    <Compile Include="ViewModel\TraceGroupViewModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Abstract\BaseChildView.resx">
+      <DependentUpon>BaseChildView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Concrete\ApplicationMainView.resx">
+      <DependentUpon>ApplicationMainView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Concrete\AssemblyInstrumentationView.resx">
+      <DependentUpon>AssemblyInstrumentationView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Concrete\TracesView.resx">
+      <DependentUpon>TracesView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Concrete\MethodCallPathView.resx">
+      <DependentUpon>MethodCallPathView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\DataSources\CodeProfiler.Model.CommandParameters.datasource" />
+    <None Include="Properties\DataSources\CodeProfiler.Model.TraceGroup.datasource" />
+    <None Include="Model\Trace.dbml.layout">
+      <DependentUpon>Trace.dbml</DependentUpon>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Model\Trace.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Trace.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Repository\Concrete\MemoryRepository.cs" />
+    <Compile Include="Repository\Abstract\IReadableRepository.cs" />
+    <Compile Include="Repository\Abstract\IWritableRepository.cs" />
+    <Compile Include="Repository\Concrete\SQLRepository.cs" />
+    <Compile Include="Repository\Concrete\FileRepository.cs" />
+    <Compile Include="Services\Abstract\IAssemblyServices.cs" />
+    <Compile Include="Services\Abstract\ITraceServerService.cs" />
+    <Compile Include="Services\Abstract\ITraceServices.cs" />
+    <Compile Include="Services\Concrete\AssemblyServices.cs" />
+    <Compile Include="Services\Concrete\TraceServerService.cs" />
+    <Compile Include="Services\Concrete\TraceServices.cs" />
+    <Compile Include="Themes\Abstract\IUITheme.cs" />
+    <Compile Include="Themes\Concrete\DefaultUITheme.cs" />
+    <Compile Include="Themes\Concrete\FlatUITheme.cs" />
+    <Compile Include="Model\Trace.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Trace.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModel\CommandTreeNode.cs" />
+    <Compile Include="ViewModel\TraceTreeNode.cs" />
+    <Compile Include="Views\Abstract\BaseChildView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Abstract\BaseChildView.Designer.cs">
+      <DependentUpon>BaseChildView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Abstract\IAppMainView.cs" />
+    <Compile Include="Views\Abstract\IChildView.cs" />
+    <Compile Include="Views\Concrete\ApplicationMainView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Concrete\ApplicationMainView.Designer.cs">
+      <DependentUpon>ApplicationMainView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Concrete\AssemblyInstrumentationView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Concrete\AssemblyInstrumentationView.Designer.cs">
+      <DependentUpon>AssemblyInstrumentationView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Concrete\TracesView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Concrete\TracesView.Designer.cs">
+      <DependentUpon>TracesView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Concrete\MethodCallPathView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Concrete\MethodCallPathView.Designer.cs">
+      <DependentUpon>MethodCallPathView.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PKTracer.Framework\PKTracer.Framework.csproj">
+      <Project>{0AC85270-F7C0-47A6-BAD5-4375EEF42167}</Project>
+      <Name>PKTracer.Framework</Name>
+      <Private>False</Private>
+    </ProjectReference>
+    <ProjectReference Include="..\PKCodeWeaver.Framework\PKCodeWeaver.Framework.csproj">
+      <Project>{90C4F179-3748-4A19-9FCD-3CEB72B46F5B}</Project>
+      <Name>PKCodeWeaver.Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exclamation-red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\method.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gear--arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hammer-screwdriver.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="appicon.ico" />
+    <None Include="Resources\eraser--arrow.png" />
+    <None Include="Resources\funnel--arrow.png" />
+    <None Include="Resources\document-export.png" />
+    <None Include="Resources\flashlight.png" />
+    <None Include="Resources\binocular.png" />
+    <None Include="Resources\memory.png" />
+    <None Include="Resources\broom--pencil.png" />
+    <None Include="Resources\blue-folder-open-document.png" />
+    <None Include="Resources\broom.png" />
+    <None Include="Resources\compile.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
